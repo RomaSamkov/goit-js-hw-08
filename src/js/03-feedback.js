@@ -30,7 +30,7 @@ function onFormSubmit(event) {
     if (parsedSubmitData) {
     console.log(parsedSubmitData);
     }
-
+    formData = {};
     event.currentTarget.reset();
     localStorage.removeItem(STORAGE_KEY);
 }
